@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71169837-7a4b-4adc-b3e9-ec3e1274b94e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/appium_python0202$Unittests_for_test_case_CaseTest_test_01.coverage" NAME="Unittests for test_case.CaseTest.test_01 Coverage Results" MODIFIED="1580824257261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/appium_python0202$0217test.coverage" NAME="0217test Coverage Results" MODIFIED="1582035710144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/appium_python0202$test0204.coverage" NAME="test0204 Coverage Results" MODIFIED="1580825750534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$test_case_py.coverage" NAME="test_case.py Coverage Results" MODIFIED="1585569930603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$test.coverage" NAME="test Coverage Results" MODIFIED="1584784732434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$base_driver.coverage" NAME="base_driver Coverage Results" MODIFIED="1584940165258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
+    <SUITE FILE_PATH="coverage/studentautocode$main.coverage" NAME="main Coverage Results" MODIFIED="1583918678267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business" />
+    <SUITE FILE_PATH="coverage/appium_python0202$test0208.coverage" NAME="test0208 Coverage Results" MODIFIED="1581929498815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$main.coverage" NAME="main Coverage Results" MODIFIED="1585283092615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business" />
+    <SUITE FILE_PATH="coverage/appium_python0202$main.coverage" NAME="main Coverage Results" MODIFIED="1583140602297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business" />
+    <SUITE FILE_PATH="coverage/appium_python0202$test_case_py.coverage" NAME="test_case.py Coverage Results" MODIFIED="1583136324443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/appium_python0202$test0215.coverage" NAME="test0215 Coverage Results" MODIFIED="1581909092591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/appium_python0202$Unittests_for_test_case_CaseTest.coverage" NAME="Unittests for test_case.CaseTest Coverage Results" MODIFIED="1580920228883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/appium_python0202$student.coverage" NAME="student Coverage Results" MODIFIED="1581068630821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$write_user_command.coverage" NAME="write_user_command Coverage Results" MODIFIED="1584696416006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/studentautocode$test_case_py.coverage" NAME="test_case.py Coverage Results" MODIFIED="1583918806627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/appium_python0202$test0207.coverage" NAME="test0207 Coverage Results" MODIFIED="1581096930073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/appium_python0202$student0205.coverage" NAME="student0205 Coverage Results" MODIFIED="1580922597556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$get_user_info.coverage" NAME="get_user_info Coverage Results" MODIFIED="1584782230765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/studentautocode$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1583915196493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="studentautocodeunit" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a7HYTNccoiZORgW6d0kzn5p5T5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\studentautocodeunit\handle\me" />
+      <recent name="D:\studentautocodeunit\handle\login" />
+      <recent name="D:\studentautocodeunit\handle\me\login" />
+      <recent name="D:\studentautocodeunit\page\login" />
+      <recent name="D:\studentautocodeunit\business\login" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\studentautocodeunit\page\me" />
+      <recent name="C:\Users\Administrator\Desktop\appium+python自编写源码\base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_case.py">
+    <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium+python自编写源码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_driver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_user_info" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium+python自编写源码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/get_user_info.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium+python自编写源码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/business" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/business/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium+python自编写源码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_case.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="appium+python自编写源码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\xuguo\PycharmProjects\untitled4\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test_case.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="write_user_command" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium+python自编写源码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/write_user_command.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_case.py" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.write_user_command" />
+      <item itemvalue="Python.get_user_info" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.base_driver" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.base_driver" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.get_user_info" />
+        <item itemvalue="Python.write_user_command" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71169837-7a4b-4adc-b3e9-ec3e1274b94e" name="Default Changelist" comment="" />
+      <created>1579510000192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579510000192</updated>
+      <workItem from="1579510003050" duration="1372000" />
+      <workItem from="1579511621134" duration="1793000" />
+      <workItem from="1580645742477" duration="938000" />
+      <workItem from="1580709108065" duration="17660000" />
+      <workItem from="1580807366874" duration="29862000" />
+      <workItem from="1580890494219" duration="16693000" />
+      <workItem from="1580955491952" duration="3467000" />
+      <workItem from="1580978567584" duration="3842000" />
+      <workItem from="1581048664356" duration="33539000" />
+      <workItem from="1581230826755" duration="4100000" />
+      <workItem from="1581242477748" duration="3007000" />
+      <workItem from="1581332680840" duration="9603000" />
+      <workItem from="1581412939554" duration="1406000" />
+      <workItem from="1581426800873" duration="2860000" />
+      <workItem from="1581693226705" duration="3567000" />
+      <workItem from="1581736238652" duration="8743000" />
+      <workItem from="1581908378439" duration="16356000" />
+      <workItem from="1582017372034" duration="2678000" />
+      <workItem from="1582596277124" duration="15760000" />
+      <workItem from="1582947839768" duration="4373000" />
+      <workItem from="1582976692177" duration="11558000" />
+      <workItem from="1583127408262" duration="13304000" />
+      <workItem from="1583321701649" duration="1074000" />
+      <workItem from="1583372835625" duration="3709000" />
+      <workItem from="1583399795705" duration="15131000" />
+      <workItem from="1583457304478" duration="2916000" />
+      <workItem from="1583465036000" duration="319000" />
+      <workItem from="1583469673124" duration="3780000" />
+      <workItem from="1583478392257" duration="11182000" />
+      <workItem from="1583912803690" duration="11059000" />
+      <workItem from="1584007311987" duration="644000" />
+      <workItem from="1584517378324" duration="5144000" />
+      <workItem from="1584696296918" duration="3879000" />
+      <workItem from="1584768681933" duration="13608000" />
+      <workItem from="1584875064115" duration="4776000" />
+      <workItem from="1584929233750" duration="23101000" />
+      <workItem from="1585048052735" duration="1584000" />
+      <workItem from="1585049749735" duration="1938000" />
+      <workItem from="1585101821589" duration="16784000" />
+      <workItem from="1585212153323" duration="3156000" />
+      <workItem from="1585215326898" duration="8344000" />
+      <workItem from="1585275646609" duration="10530000" />
+      <workItem from="1585560355688" duration="623000" />
+      <workItem from="1585561002653" duration="5755000" />
+      <workItem from="1585893929736" duration="2861000" />
+      <workItem from="1586061528446" duration="231000" />
+      <workItem from="1586079761358" duration="945000" />
+      <workItem from="1586081527340" duration="3361000" />
+      <workItem from="1586087331967" duration="2013000" />
+      <workItem from="1586236475902" duration="1351000" />
+      <workItem from="1586329649408" duration="655000" />
+      <workItem from="1586410826836" duration="3000" />
+      <workItem from="1588752443449" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.05 at 11h 41m 55s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.05 at 11h 43m 43s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.05 at 11h 47m 50s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.05 at 11h 48m 04s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.05 at 11h 49m 12s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.05 at 11h 57m 42s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.05 at 14h 07m 44s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.05 at 14h 08m 48s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.06 at 00h 19m 39s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_case_CaseTest - 2020.02.06 at 00h 31m 33s.xml">
+      <configuration name="Unittests for test_case.CaseTest" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586079881478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586079881478" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586144600279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586144600279" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1586237827509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586237827509" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1586237827509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586237827509" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1586237827509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586237827509" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1586237827509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586237827509" />
+    <state x="171" y="46" width="996" height="707" key="SettingsEditor" timestamp="1586086733283">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="171" y="46" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586086733283" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/studentautocodeunit$test_case_py.coverage" NAME="test_case.py Coverage Results" MODIFIED="1586237585254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+  </component>
+</project>
