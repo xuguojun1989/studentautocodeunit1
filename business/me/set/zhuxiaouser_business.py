@@ -38,15 +38,21 @@ class ZhuxiaouserBusiness:
             self.me_handle.click_set()
             self.set_handle = SetHandle(self.driver)
             self.set_page=SetPage(self.driver)
-            print("开始查询注销账号元素")
-            self.set_page.get_cancelusername_element()
-            print("查询注销账号元素存在")
+            print("开始设置页面元素")
+            if self.set_page.get_cancellogin_element().text == "退出登录":
+                print("页面进入设置页面")
+            else:
+                print("页面未进入设置页面")
             print("开始点击注销账号按钮")
-            self.set_handle.click_cancelusername()
+            #self.set_handle.click_cancelusername()
+            self.set_handle.click_cancelusernametext()
             print("点击结束注销账号按钮")
             self.zhuxiaouser_page = ZhuxiaouserPage(self.driver)
-            print("检查注销账号页面返回键是否存在")
-            self.zhuxiaouser_page.get_return_element()
+            print("检查注销账号页面标题是否存在")
+            if self.zhuxiaouser_page.get_title_element().text == "账号注销":
+                print("进入账号注销页")
+            else:
+                print("未进入账号注销页")
             self.driver.get_screenshot_as_file(dir + '/' + self.username + 'checkzhuxiaouserpage.png')
             self.zhuxiao_handle=ZhuxiaouserHandle(self.driver)
             print("点击注销账号页面返回")

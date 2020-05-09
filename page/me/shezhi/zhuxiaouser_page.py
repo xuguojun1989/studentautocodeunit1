@@ -13,3 +13,8 @@ class ZhuxiaouserPage:
         获取返回按钮元素信息
         '''
         return self.get_by_local.get_element('zhuxiaouser','returnbuttom')
+    def get_title_element(self):
+        '''
+        获取标题元素信息
+        '''
+        return self.get_by_local.get_element('zhuxiaouser','title')

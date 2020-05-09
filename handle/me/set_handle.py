@@ -19,9 +19,20 @@ class SetHandle:
 
     def click_cancelusername(self):
         '''
-        点击注销账号登录
+        点击注销账号
         '''
         self.set_page.get_cancelusername_element().click()
+    def click_cancelusernametext(self):
+        '''
+        点击注销账号文案
+        '''
+        num = len(self.set_page.get_cancelusernametext_element())
+        x = 0
+        while x<num:
+            if self.set_page.get_cancelusernametext_element()[x].text == "注销账号":
+                self.set_page.get_cancelusernametext_element()[x].click()
+                break
+            x = x + 1
 
     def click_deletecache(self):
         '''
@@ -33,5 +44,10 @@ class SetHandle:
         '''
         点击检查最新版本按钮
         '''
-        self.set_page.get_checkversion_element()
+        self.set_page.get_checkversion_element().click()
+    def click_eyemode(self):
+        '''
+        点击护眼模式按钮
+        '''
+        self.set_page.get_protecteye_element().click()
 

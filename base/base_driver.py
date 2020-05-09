@@ -6,15 +6,15 @@ class BaseDriver:
         #devices_name
         #prot
         capabilities = {
-            "deviceName": "d88590a0",
-            "platformVersion": "9",
+            "deviceName": "9HQ0219524007103",
+            "platformVersion": "10",
             #"automationName":"Appium",
             "platformName": "Android",
             "autoAcceptAlerts":True,
             "noReset": True,
             "appPackage": "com.gaosi.student",
             "appActivity": "com.gaosi.student.ui.loading.SplashingActivity",
-            "app": "C:\\Users\\xuguo\Desktop\\Android-student-1.2.0.apk",
+            "app": "C:\\Users\\xuguo\Desktop\\app-releasenew.apk",
             "automationName":'UiAutomator2',
             #"fullReset":False
         }

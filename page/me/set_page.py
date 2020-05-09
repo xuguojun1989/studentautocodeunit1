@@ -24,6 +24,11 @@ class SetPage:
         获取注销账号按钮元素信息
         '''
         return self.get_by_local.get_element('set','cancelusername')
+    def get_cancelusernametext_element(self):
+        '''
+        获取注销账号按钮元素文案信息
+        '''
+        return self.get_by_local.get_element('set','cancelusernametext')
     def get_deletecache_element(self):
         '''
         获取清除缓存按钮元素信息

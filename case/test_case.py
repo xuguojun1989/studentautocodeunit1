@@ -23,6 +23,7 @@ from util.createlogdir import CreatelogDir
 from business.me.jinbi_business import JinbiBusiness
 from business.me.set.deletelocalcache_business import DeletelocalcacheBusiness
 from business.me.set.zhuxiaouser_business import ZhuxiaouserBusiness
+from business.me.set.seteyemode_business import SeteyemodeBusiness
 
 class CaseTest(unittest.TestCase):
 
@@ -39,7 +40,7 @@ class CaseTest(unittest.TestCase):
         username=get_userinfopublic.getusername()
         pwd=get_userinfopublic.getpwd()
         errorpwd=get_userinfopublic.geterrorpwd()
-        logfiledir=createlogdir.createlogdir()
+        createlogdir.createlogdir()
 
         CaseTest.protocalalter_business=ProtocalalterBusiness(driver,createdir)
         CaseTest.login_business= LoginBusiness(driver,createdir,username,pwd,errorpwd)
@@ -51,7 +52,7 @@ class CaseTest(unittest.TestCase):
         CaseTest.jinbi_business=JinbiBusiness(driver,createdir,username)
         CaseTest.deletelocalcache_business=DeletelocalcacheBusiness(driver,createdir,username)
         CaseTest.zhuxiaouser_business=ZhuxiaouserBusiness(driver,createdir,username)
-
+        CaseTest.seteyemode_business=SeteyemodeBusiness(driver,createdir,username)
     #下边的是实例方法
     def setUp(self):
         print ('this is set up')
@@ -147,6 +148,10 @@ class CaseTest(unittest.TestCase):
         flag = self.zhuxiaouser_business.checkzhuxiaouserpage()
         self.assertTrue(flag)
 
+    def test_seteyemode(self):
+        flag = self.seteyemode_business.seteyemode()
+        self.assertTrue(flag)
+
 
 
 
@@ -212,6 +217,7 @@ if __name__ == '__main__':
     suite.addTest(CaseTest("test_jinbiinfocheck"))
     suite.addTest(CaseTest("test_zhuxiaouser"))
     suite.addTest(CaseTest("test_deletelocalcache"))
+    suite.addTest(CaseTest("test_seteyemode"))
   #suite.addTest(CaseTest("test_courseselect"))
     #suite.addTest(CaseTest("test_classdetailselect"))
     #suite.addTest(CaseTest("test_classdetailplayback"))

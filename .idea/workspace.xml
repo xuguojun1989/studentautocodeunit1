@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71169837-7a4b-4adc-b3e9-ec3e1274b94e" name="Default Changelist" comment="" />
+    <list default="true" id="71169837-7a4b-4adc-b3e9-ec3e1274b94e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/me/set/checknewversion_business.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business/me/set/seteyemode_business.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handle/me/shezhi/seteyemode_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handle/me/shezhi/seteyemodeconfirm_handle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/me/shezhi/seteyemode_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/me/shezhi/seteyemodeconfirm_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/business/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/me/set/checknewversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/business/me/set/zhuxiaouser_business.py" beforeDir="false" afterPath="$PROJECT_DIR$/business/me/set/zhuxiaouser_business.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/LocalElement.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/LocalElement.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle/me/set_handle.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/me/set_handle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/me/set_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/me/set_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/me/shezhi/zhuxiaouser_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/me/shezhi/zhuxiaouser_page.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +59,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a7HYTNccoiZORgW6d0kzn5p5T5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,19 +77,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\studentautocodeunit\handle\me" />
-      <recent name="D:\studentautocodeunit\handle\login" />
-      <recent name="D:\studentautocodeunit\handle\me\login" />
-      <recent name="D:\studentautocodeunit\page\login" />
-      <recent name="D:\studentautocodeunit\business\login" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\studentautocodeunit\page\me" />
       <recent name="C:\Users\Administrator\Desktop\appium+python自编写源码\base" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\studentautocodeunit\handle\me\shezhi" />
+      <recent name="D:\studentautocodeunit\handle\me" />
+      <recent name="D:\studentautocodeunit\handle\login" />
+      <recent name="D:\studentautocodeunit\handle\me\login" />
+      <recent name="D:\studentautocodeunit\page\login" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.test_case.py">
+  <component name="RunManager" selected="Python.main">
     <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appium+python自编写源码" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +156,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="set_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="appium+python自编写源码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page/me" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/me/set_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appium+python自编写源码" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,43 +222,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="write_user_command" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="appium+python自编写源码" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/write_user_command.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.test_case.py" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.write_user_command" />
       <item itemvalue="Python.get_user_info" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.base_driver" />
+      <item itemvalue="Python.set_page" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.set_page" />
         <item itemvalue="Python.base_driver" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.get_user_info" />
-        <item itemvalue="Python.write_user_command" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +302,8 @@
       <workItem from="1586236475902" duration="1351000" />
       <workItem from="1586329649408" duration="655000" />
       <workItem from="1586410826836" duration="3000" />
-      <workItem from="1588752443449" duration="603000" />
+      <workItem from="1588752443449" duration="1214000" />
+      <workItem from="1588998561672" duration="15655000" />
     </task>
     <servers />
   </component>
@@ -336,28 +360,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586144600279" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1586237827509">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1589025203004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586237827509" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1586237827509">
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589025203004" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1589025203004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586237827509" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1586237827509">
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589025203004" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1589025203004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586237827509" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1586237827509">
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589025203004" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1589025203004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586237827509" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589025203004" />
     <state x="171" y="46" width="996" height="707" key="SettingsEditor" timestamp="1586086733283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="171" y="46" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586086733283" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/studentautocodeunit$test_case_py.coverage" NAME="test_case.py Coverage Results" MODIFIED="1586237585254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$main.coverage" NAME="main Coverage Results" MODIFIED="1589025202996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/business" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$set_page.coverage" NAME="set_page Coverage Results" MODIFIED="1589022892531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page/me" />
+    <SUITE FILE_PATH="coverage/studentautocodeunit$test_case_py.coverage" NAME="test_case.py Coverage Results" MODIFIED="1589022900754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
   </component>
 </project>
