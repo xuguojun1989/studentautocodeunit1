@@ -57,3 +57,10 @@ class SetPage:
         toast_element = ("xpath", "//*[contains(@text,'" + message + "')]")
         print(toast_element)
         return WebDriverWait(self.driver,10,0.1).until(EC.presence_of_element_located(toast_element))
+
+
+    def get_return_element(self):
+        '''
+        获取返回按钮元素
+        '''
+        return  self.get_by_local.get_element('set','returnbutton')

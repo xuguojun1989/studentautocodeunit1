@@ -35,3 +35,18 @@ class MeHandle:
         点击我的页面金币按钮
         '''
         self.me_page.get_jinbi_element().click()
+
+
+    def click_suggestion(self):
+        '''
+        点击我的页面意见反馈按钮
+        '''
+
+        num = len(self.me_page.get_set_element())
+        x = 0
+        while x<num:
+            if self.me_page.get_set_element()[x].text == "意见反馈":
+                self.me_page.get_set_element()[x].click()
+                break
+            x = x + 1
+

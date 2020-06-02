@@ -24,6 +24,8 @@ from business.me.jinbi_business import JinbiBusiness
 from business.me.set.deletelocalcache_business import DeletelocalcacheBusiness
 from business.me.set.zhuxiaouser_business import ZhuxiaouserBusiness
 from business.me.set.seteyemode_business import SeteyemodeBusiness
+from business.me.set.withus_business import WithusBusiness
+from business.me.suggestion_business import SuggestionBusiness
 
 class CaseTest(unittest.TestCase):
 
@@ -53,6 +55,9 @@ class CaseTest(unittest.TestCase):
         CaseTest.deletelocalcache_business=DeletelocalcacheBusiness(driver,createdir,username)
         CaseTest.zhuxiaouser_business=ZhuxiaouserBusiness(driver,createdir,username)
         CaseTest.seteyemode_business=SeteyemodeBusiness(driver,createdir,username)
+        CaseTest.withus_business=WithusBusiness(driver,createdir,username)
+        CaseTest.suggestion_business=SuggestionBusiness(driver,createdir,username)
+
     #下边的是实例方法
     def setUp(self):
         print ('this is set up')
@@ -152,8 +157,13 @@ class CaseTest(unittest.TestCase):
         flag = self.seteyemode_business.seteyemode()
         self.assertTrue(flag)
 
+    def test_withus(self):
+        flag = self.withus_business.checkwithuspage()
+        self.assertTrue(flag)
 
-
+    def test_suggestion(self):
+        flag = self.suggestion_business.submitsuggestion()
+        self.assertTrue(flag)
 
 
     def test_02(self):
@@ -190,22 +200,7 @@ class CaseTest(unittest.TestCase):
         
     
 if __name__ == '__main__':
-    #get_suite()
-    #unittest.main()
-#    threads = []
-#    for i in range(3):
-#        #print (i)
-#        #在内存里面已经有了线程这个东西
-#        t = threading.Thread(target=get_suite,args=(i,))
-#       threads.append(t)
-#       #t.start()
-        
-#    for j in threads:
-#       j.start()
-#
-
     suite = unittest.TestSuite()
-
 
     suite.addTest(CaseTest("test_clickprotocalalteragreebutton"))
     suite.addTest(CaseTest("test_loginmobileorpassworderror"))
@@ -217,17 +212,11 @@ if __name__ == '__main__':
     suite.addTest(CaseTest("test_jinbiinfocheck"))
     suite.addTest(CaseTest("test_zhuxiaouser"))
     suite.addTest(CaseTest("test_deletelocalcache"))
-    suite.addTest(CaseTest("test_seteyemode"))
-  #suite.addTest(CaseTest("test_courseselect"))
-    #suite.addTest(CaseTest("test_classdetailselect"))
-    #suite.addTest(CaseTest("test_classdetailplayback"))
-    #suite.addTest(CaseTest("test_hejiaotaskshow"))
-    #suite.addTest(CaseTest("test_classdetail91onlinetask"))
-    #suite.addTest(CaseTest("test_coursematerial"))
-    #suite.addTest(CaseTest("test_zhuanticoursetaskcheck"))
-    #suite.addTest(CaseTest("test_selfreinforcementtaskscheck"))
+    #suite.addTest(CaseTest("test_seteyemode"))
+    suite.addTest(CaseTest("test_withus"))
+    suite.addTest(CaseTest("test_suggestion"))
+
     suite.addTest(CaseTest("test_02"))
-    #unittest.TextTestRunner().run(suite)
     html_file = "../report/result/"+datetime.now().strftime("%Y%m%d_%H%M%S")+"report.html"
     fp = open(html_file,"wb")
     #HTMLTestRunner已经继承了unittest，可以这样执行

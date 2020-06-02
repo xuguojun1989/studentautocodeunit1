@@ -4,7 +4,6 @@ import sys
 sys.path.append("..")
 from page.me.set_page import SetPage
 
-
 class SetHandle:
     def __init__(self,driver):
         self.set_page = SetPage(driver)
@@ -50,4 +49,21 @@ class SetHandle:
         点击护眼模式按钮
         '''
         self.set_page.get_protecteye_element().click()
+
+    def click_withus(self):
+        '''
+        点击关于我们按钮
+        '''
+        self.set_page.get_withus_element().click()
+
+    def click_suggestion(self):
+        '''
+        点击意见反馈按钮
+        '''
+        self.set_page.get_suggestion_element().click()
+    def click_returnbutton(self):
+        '''
+        点击返回按钮
+        '''
+        self.set_page.get_return_element().click()
 

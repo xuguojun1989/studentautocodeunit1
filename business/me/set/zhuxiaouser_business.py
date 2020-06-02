@@ -30,12 +30,8 @@ class ZhuxiaouserBusiness:
             # self.login_down = LoginDown(self.driver)
             # self.login_down.unloginloginfirst()
             logging.info("从学习页面查看注销账号动作开始")
-            self.index_handle = IndexHandle(self.driver)
-            self.index_handle.click_lowerbannerme()
-            self.me_page=MePage(self.driver)
-            self.me_page.get_set_element()
-            self.me_handle=MeHandle(self.driver)
-            self.me_handle.click_set()
+            self.downentersetpage = Downentersetpage(self.driver)
+            self.downentersetpage.downentersetpage()
             self.set_handle = SetHandle(self.driver)
             self.set_page=SetPage(self.driver)
             print("开始设置页面元素")
@@ -49,10 +45,12 @@ class ZhuxiaouserBusiness:
             print("点击结束注销账号按钮")
             self.zhuxiaouser_page = ZhuxiaouserPage(self.driver)
             print("检查注销账号页面标题是否存在")
-            if self.zhuxiaouser_page.get_title_element().text == "账号注销":
-                print("进入账号注销页")
-            else:
-                print("未进入账号注销页")
+
+            # if self.zhuxiaouser_page.get_title_element().text == "账号注销":
+            #     print("进入账号注销页")
+            # else:
+            #     print("未进入账号注销页")
+            self.zhuxiaouser_page.get_return_element()
             self.driver.get_screenshot_as_file(dir + '/' + self.username + 'checkzhuxiaouserpage.png')
             self.zhuxiao_handle=ZhuxiaouserHandle(self.driver)
             print("点击注销账号页面返回")

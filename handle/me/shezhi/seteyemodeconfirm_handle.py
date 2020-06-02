@@ -16,4 +16,10 @@ class SeteyemodeconfirmHandle:
         '''
         self.seteyemodeconfirm_page.get_set_element().click()
 
+    def click_returnbutton(self):
+        '''
+        点击返回按钮
+        '''
+        self.seteyemodeconfirm_page.get_return_element().click()
+
 

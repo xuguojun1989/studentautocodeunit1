@@ -52,13 +52,12 @@ class SeteyemodeBusiness:
             if self.checkfirstset():
                 self.seteyemode_handle=SeteyemodeHandle(self.driver)
                 self.seteyemode_handle.click_okbutton()
-
                 self.seteyemodeconfirm_page=SeteyemodeconfirmPage(self.driver)
+                self.seteyemodeconfirm_page.get_return_element()
                 self.seteyemodeconfirm_page.get_set_element()
-                self.seteyemodeconfirm_handle=SeteyemodeconfirmHandle(self.driver)
-                self.seteyemodeconfirm_handle.click_setbutton(self.driver)
-                self.driver.keyevent(4)
-                self.set_page.get_protecteye_element()
+                self.seteyemodeconfirm_handle = SeteyemodeconfirmHandle(self.driver)
+                self.seteyemodeconfirm_handle.click_setbutton()
+                self.seteyemodeconfirm_handle.click_returnbutton()
                 return True
             else:
                 self.set_page.get_protecteye_element()
